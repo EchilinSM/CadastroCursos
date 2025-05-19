@@ -1,0 +1,66 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height:1.6;
+}
+
+.hero{
+    background: linear-gradient(135deg, #007BFF, #0056b0);
+    color: #fff;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+}
+
+.hero p{
+    font-size: 1.2rem;
+}
+
+img
+
+footer{
+    font-size: 0.9rem;
+}
+
+/* Card do carousel */
+.card{
+    border: none;
+    box-shadow: 0 4px 6px rgba(red, green, blue, alpha);
+}
+
+.card-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text{
+    font-size: 1rem;
+}
+
+/* Módulo do carousel */
+
+.carousel-inner .carousel-item{
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-text{
+    color: #007BFF;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #007BFF;
+}
+
+/* Responsividade */
+@media(max-width:78px){
+    .hero h2{
+        font-size: 2rem;
+    }
+
+    .hero p{
+        font-size:1.1250rem
+    }
+    .card-text{
+        font-size: 0.875rem;
+    }
+}
